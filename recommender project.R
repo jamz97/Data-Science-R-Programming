@@ -15,10 +15,10 @@ library(methods)
 library(Matrix)
 
 #Loading the files
-books <- read.csv("C:/Users/intellipaat/Desktop/book/books.csv")
-ratings <- read.csv("C:/Users/intellipaat/Desktop/book/ratings.csv")
-book_tags <- read.csv("C:/Users/intellipaat/Desktop/book/book_tags.csv")
-tags <- read.csv("C:/Users/intellipaat/Desktop/book/tags.csv")
+books <- read.csv("A:\Data Science\Book Recommender/books.csv")
+ratings <- read.csv("A:\Data Science\Book Recommender/ratings.csv")
+book_tags <- read.csv("A:\Data Science\Book Recommender/book_tags.csv")
+tags <- read.csv("A:\Data Science\Book Recommender/tags.csv")
 
 #Having a glance at the data
 View(ratings)
